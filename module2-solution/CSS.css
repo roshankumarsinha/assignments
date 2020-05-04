@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+}
+h3{
+	float: right;
+	margin-top: 0px;
+	text-align: center;
+	border: 1px solid black;
+}
+#h1{
+	background-color: pink;
+	width: 40%;
+}
+#h2{
+	background-color: red;
+	width: 40%;
+}
+#h3{
+	background-color: yellow;
+	width: 40%;
+}
+p{
+	clear: right;
+}
+section{
+	background-color: grey;
+	padding: 3px;
+	margin: 10px;
+	border: 1px solid black;
+
+}
+@media (min-width: 992px){
+	.col-l{
+		float: left;
+	}
+	.col-l{
+		width: 33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-m-1, .col-m-2{
+		float: left;
+	} 
+	.col-m-1{
+		width: 50%;
+	}
+	.col-m-2{
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+	.col-s{
+		float: left;
+	}
+	.col-s{
+		width: 100%;
+	}
+}
